@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FunnyGame.Api", "FunnyGame.Api\FunnyGame.Api.csproj", "{460D029A-AF53-4653-B8D2-76C6550C4F8F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FunnyGame.Data", "FunnyGame.Data\FunnyGame.Data.csproj", "{F9561780-3271-4697-92B9-E0FC62A45D40}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FunnyGame.Application", "FunnyGame.Application\FunnyGame.Application.csproj", "{254AD437-231E-410A-9EDC-ECC2C4F3B09C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{460D029A-AF53-4653-B8D2-76C6550C4F8F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{460D029A-AF53-4653-B8D2-76C6550C4F8F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{460D029A-AF53-4653-B8D2-76C6550C4F8F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{460D029A-AF53-4653-B8D2-76C6550C4F8F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F9561780-3271-4697-92B9-E0FC62A45D40}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F9561780-3271-4697-92B9-E0FC62A45D40}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F9561780-3271-4697-92B9-E0FC62A45D40}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F9561780-3271-4697-92B9-E0FC62A45D40}.Release|Any CPU.Build.0 = Release|Any CPU
+		{254AD437-231E-410A-9EDC-ECC2C4F3B09C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{254AD437-231E-410A-9EDC-ECC2C4F3B09C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{254AD437-231E-410A-9EDC-ECC2C4F3B09C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{254AD437-231E-410A-9EDC-ECC2C4F3B09C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
