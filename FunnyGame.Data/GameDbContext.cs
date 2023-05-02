@@ -107,5 +107,13 @@ public class GameDbContext : DbContext
                 WinAgainstId = 1
             }
         });
+
+        builder.Entity<GameRule>()
+            .HasIndex(x => new
+            {
+                x.ChoiceId,
+                x.WinAgainstId
+            })
+            .IsUnique();
     }
 }

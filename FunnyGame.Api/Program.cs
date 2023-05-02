@@ -7,7 +7,7 @@ using Microsoft.EntityFrameworkCore;
 WebApplicationBuilder builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddDbContext<GameDbContext>(options => options.UseInMemoryDatabase("database"));
-builder.Services.AddScoped<IRandomizerService, MockRandomizerService>();
+builder.Services.AddScoped<IRandomizerService, RandomizerService>();
 builder.Services.AddScoped<GameService>();
 builder.Services.AddControllers()
     .AddJsonOptions(options =>
